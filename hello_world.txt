@@ -1,0 +1,29 @@
+Hello World!
+Selamat datang di pembelajaran Git.
+
+Berikut adalah catatan singkat perintah-perintah Git yang penting untuk kamu ingat:
+
+1. INISIALISASI & CLONE
+   - git init                     : Membuat repository Git lokal baru di folder saat ini.
+   - git clone <url_repository>   : Menduplikasi repository dari GitHub ke komputer lokal.
+
+2. MEMANTAU PERUBAHAN
+   - git status                   : Melihat status file (apakah ada perubahan, file baru, dll).
+   - git diff                     : Melihat detail perubahan baris kode sebelum di-commit.
+
+3. MENYIMPAN PERUBAHAN (STAGE & COMMIT)
+   - git add <nama_file>          : Memasukkan file tertentu ke area Staging.
+   - git add .                    : Memasukkan semua perubahan file ke area Staging.
+   - git commit -m "pesan commit" : Menyimpan perubahan secara permanen di riwayat Git lokal.
+
+4. MENGIRIM & MENGAMBIL PERUBAHAN (GITHUB)
+   - git push origin <nama_branch>: Mengirim commit dari lokal ke GitHub.
+   - git pull origin <nama_branch>: Mengambil dan menggabungkan update terbaru dari GitHub ke lokal.
+   - git fetch                    : Mengambil info update dari GitHub tanpa langsung menggabungkannya.
+
+5. RIWAYAT & BRANCH
+   - git log                      : Melihat riwayat commit yang pernah dibuat.
+   - git branch                   : Melihat daftar branch (cabang).
+   - git checkout -b <nama_baru>  : Membuat branch baru dan langsung berpindah ke sana.
+
+Semangat belajarnya, Odin!
